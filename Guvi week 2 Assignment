@@ -1,0 +1,18 @@
+                                                 Week 2 Assignment
+
+
+
+1. E-commerce Cart System
+To build a shopping cart system where duplicate items are allowed (like adding 2 apples and 3 bananas) and the order in which items are added should be remembered, the best choice is a LinkedHashMap<Item, Integer>. This collection allows us to store each item along with its quantity and maintains the exact order in which users add items to their cart — just like how you’d toss things into a basket while shopping. If an item is added again, we simply update its quantity in the map.
+
+
+2. Auto-Complete Feature
+For an auto-complete feature that suggests words based on a user’s typed prefix and shows them in alphabetical order, TreeSet<String> is the ideal collection. It stores unique words and automatically keeps them sorted, making it easy to find and return all suggestions that start with a given prefix. So when a user types "app", you can quickly fetch suggestions like "apple", "application", and "appliance" in the right order without manually sorting anything.
+
+
+3. LRU Cache
+To implement an LRU (Least Recently Used) cache, we can extend LinkedHashMap<K, V> with access-order enabled and override the removeEldestEntry() method. This setup keeps track of the most recently accessed items, and once the cache hits its maximum size, it automatically removes the least recently used item. Think of it like a smart storage box that pushes out the oldest item when something new is added and there's no space left.
+
+
+4. Leaderboard System
+When building a leaderboard where players should be ranked based on their scores in descending order, a TreeSet<Player> with a custom comparator is the right choice. It maintains all players in a sorted order as they are added, keeping the highest scores at the top automatically. This works just like a real-time scoreboard, where rankings update as players score more points — and the best part is, you don’t need to manually sort the list every time.
