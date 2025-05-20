@@ -1,0 +1,26 @@
+1. 
+1. New Rejistratio : should be New Registratiom
+2. User Id T$1Dw_5& contains special character.
+3. Email field left empty with no error message or mandatory indicator (*).
+4. CAPTCHA is not entered fully. (only r entered)
+
+
+2.
+
+1.Empty window content : the main area is completely blank, there is no text area to type.
+2.Non-functional menu Options : options like cut , paste and find are likely disabled or non-functional when no text area is present.
+3.Menu options have no icons or hover optiona.
+4. No scrollbars
+5.No title
+6.No shortcut keys for common options like cut, paste.
+7.Menu alignment :Menu items like file, edit help are bunched up together. There should be proper spacing between them
+
+3. 
+
+1."what is your email address?" can be simplified to "Email address" or "Enter your email address"
+2. "Do you have password?" is grammatically incorrect. Instead Do you have a password?"
+3. Unclear cta button : It should be "Sign in" or "Log in"
+4. Missing validations for incorrect input
+
+
+
